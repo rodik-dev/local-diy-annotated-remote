@@ -142,7 +142,7 @@ export default class FeaturesSection extends React.Component {
                     </div>
                 )}
                 {!_.isEmpty(features) && (
-                    <div className="container" data-sb-field-path=".features">
+                    <div className="container" data-sb-fp=".features">
                         {_.map(features, (feature, index) => this.renderFeature(feature, index, section))}
                     </div>
                 )}
