@@ -137,7 +137,7 @@ export default class FeaturesSection extends React.Component {
                             'text-right': alignX === 'right'
                         })}
                     >
-                        {subtitle && <div className="section__subtitle" data-sb-field-path=".subtitle .field2">{subtitle}</div>}
+                        {subtitle && <div className="section__subtitle" data-sb-field-path=".subtitle">{subtitle}</div>}
                         {title && <h2 className="section__title mt-0" data-sb-field-path=".title">{title}</h2>}
                     </div>
                 )}
